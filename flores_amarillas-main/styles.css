@@ -1,0 +1,21 @@
+body {
+	background-color: white;
+}
+
+.flower {
+	position: absolute;
+	display: inline-block;
+	font-size: 60px;
+	animation: upAndDisappear 3s linear;
+}
+
+@keyframes upAndDisappear {
+	from {
+		bottom: 0;
+		opacity: 0;
+	}
+	to {
+		bottom: 100%;
+		opacity: 0;
+	}
+}
